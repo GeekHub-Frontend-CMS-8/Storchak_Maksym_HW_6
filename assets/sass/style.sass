@@ -1,0 +1,153 @@
+$font-lato: Lato 
+$font-asap: Asap 
+$list: none
+$padding-l: 30px 0 0 60px
+$padding-r: 30px 60px 0 0
+body
+    font-family: $font-asap, sans-serif     
+
+.allcontent
+    padding: 0 6%
+    background-color: #f1f1f1
+
+
+.btn
+    padding: 20px 0
+    width: 160px
+    margin-right: 20px 
+    border-radius: 2px
+    border: 1px solid #4d4d4d
+    background-color: transparent
+    &:hover
+        box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1)
+        background-color: #ffffff
+
+.home
+    background: url(../img/bg_home.png) no-repeat center/cover
+    display: flex
+
+    .left
+        flex-grow: 1
+        padding: $padding-l
+        display: flex
+        flex-direction: column
+
+        h1 
+          margin: 175px 0 0
+          color: #4d4d4d
+          font-size: 90px
+          font-weight: 500
+          line-height: 67px
+        p
+            margin: 0
+            opacity: 0.54
+            color: #4d4d4d
+            font-size: 22px
+            font-weight: 500
+            line-height: 67px 
+        
+
+        .logo *
+            margin: 0
+        .logo
+            width: 100px
+            text-align: center
+
+            h5 
+                color: #000000
+                font-family: $font-lato
+                font-size: 14px
+                font-weight: 300
+                line-height: 15.92px
+                text-transform: uppercase
+                letter-spacing: 2.4px
+            p
+                color: #000000
+                font-family: $font-lato
+                font-size: 4px
+                font-weight: 400
+                line-height: 15.92px
+                text-transform: uppercase
+                letter-spacing: 2.04px
+
+        
+    
+
+
+    .right
+        flex-grow: 1.5
+        padding: $padding-r
+
+        .menu
+            text-align: right
+
+            ul
+                list-style: $list
+
+                li
+                    display: inline-block
+                    margin: 0 20px
+                    padding-bottom: 13px
+                    a
+                        text-decoration: none
+                        color: #4d4d4d
+                        font-size: 16px
+                        padding-bottom: 10px
+                        border-bottom: 3px solid tranparent
+                    &:hover
+                        padding-bottom: 10px
+                        border-bottom: 3px solid #4d4d4d
+        
+.about_me
+    display: flex
+    align-items: flex-end
+    padding-bottom: 134px
+    justify-content: center
+
+
+    .left
+        padding: $padding-l
+        max-width: 30%
+        margin-right: 130px
+
+
+        h2
+            opacity: 0.8
+            color: #4d4d4d
+            font-size: 46px
+            font-weight: 700
+            line-height: 49px
+            text-transform: uppercase
+            letter-spacing: 5.52px
+
+            .fl
+                border-top: 4px solid #212121
+
+        P
+            color: #4d4d4d
+            font-size: 16px
+            font-weight: 400
+            line-height: 26px        
+
+        .btn
+            margin-bottom: 50px
+
+
+    .right
+        padding: $padding-r
+        max-width: 30%
+        margin-left: 130px
+
+    
+
+
+    
+ 
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+body {
+  font-family: Asap, sans-serif; }
+
+.allcontent {
+  padding: 0 6%;
+  background-color: #f1f1f1; }
+
+.btn {
+  padding: 20px 0;
+  width: 160px;
+  margin-right: 20px;
+  border-radius: 2px;
+  border: 1px solid #4d4d4d;
+  background-color: transparent; }
+  .btn:hover {
+    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; }
+
+.home {
+  background: url(../img/bg_home.png) no-repeat center/cover;
+  display: flex; }
+  .home .left {
+    flex-grow: 1;
+    padding: 30px 0 0 60px;
+    display: flex;
+    flex-direction: column; }
+    .home .left h1 {
+      margin: 175px 0 0;
+      color: #4d4d4d;
+      font-size: 90px;
+      font-weight: 500;
+      line-height: 67px; }
+    .home .left p {
+      margin: 0;
+      opacity: 0.54;
+      color: #4d4d4d;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 67px; }
+    .home .left .logo * {
+      margin: 0; }
+    .home .left .logo {
+      width: 100px;
+      text-align: center; }
+      .home .left .logo h5 {
+        color: #000000;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 15.92px;
+        text-transform: uppercase;
+        letter-spacing: 2.4px; }
+      .home .left .logo p {
+        color: #000000;
+        font-family: Lato;
+        font-size: 4px;
+        font-weight: 400;
+        line-height: 15.92px;
+        text-transform: uppercase;
+        letter-spacing: 2.04px; }
+  .home .right {
+    flex-grow: 1.5;
+    padding: 30px 60px 0 0; }
+    .home .right .menu {
+      text-align: right; }
+      .home .right .menu ul {
+        list-style: none; }
+        .home .right .menu ul li {
+          display: inline-block;
+          margin: 0 20px;
+          padding-bottom: 13px; }
+          .home .right .menu ul li a {
+            text-decoration: none;
+            color: #4d4d4d;
+            font-size: 16px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid tranparent; }
+          .home .right .menu ul li:hover {
+            padding-bottom: 10px;
+            border-bottom: 3px solid #4d4d4d; }
+
+.about_me {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 134px;
+  justify-content: center; }
+  .about_me .left {
+    padding: 30px 0 0 60px;
+    max-width: 30%;
+    margin-right: 130px; }
+    .about_me .left h2 {
+      opacity: 0.8;
+      color: #4d4d4d;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 49px;
+      text-transform: uppercase;
+      letter-spacing: 5.52px; }
+      .about_me .left h2 .fl {
+        border-top: 4px solid #212121; }
+    .about_me .left P {
+      color: #4d4d4d;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px; }
+    .about_me .left .btn {
+      margin-bottom: 50px; }
+  .about_me .right {
+    padding: 30px 60px 0 0;
+    max-width: 30%;
+    margin-left: 130px; }
