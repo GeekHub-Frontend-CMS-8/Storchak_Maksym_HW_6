@@ -16,9 +16,26 @@ body {
     box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
     background-color: #ffffff; }
 
+.fl {
+  border-top: 4px solid #212121; }
+
+h2 {
+  opacity: 0.8;
+  color: #4d4d4d;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 49px;
+  text-transform: uppercase;
+  letter-spacing: 5.52px;
+  text-align: center; }
+
+section {
+  padding: 120px 0; }
+
 .home {
   background: url(../img/bg_home.png) no-repeat center/cover;
-  display: flex; }
+  display: flex;
+  padding-top: 0; }
   .home .left {
     flex-grow: 1;
     padding: 30px 0 0 60px;
@@ -88,17 +105,7 @@ body {
     padding: 30px 0 0 60px;
     max-width: 30%;
     margin-right: 130px; }
-    .about_me .left h2 {
-      opacity: 0.8;
-      color: #4d4d4d;
-      font-size: 46px;
-      font-weight: 700;
-      line-height: 49px;
-      text-transform: uppercase;
-      letter-spacing: 5.52px; }
-      .about_me .left h2 .fl {
-        border-top: 4px solid #212121; }
-    .about_me .left P {
+    .about_me .left p {
       color: #4d4d4d;
       font-size: 16px;
       font-weight: 400;
@@ -109,3 +116,54 @@ body {
     padding: 30px 60px 0 0;
     max-width: 30%;
     margin-left: 130px; }
+
+.services {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .services .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .services .container .service_img {
+      padding: 80px 150px; }
+    .services .container h5 {
+      color: #4d4d4d;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 30px; }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff; }
+  .skills .plot {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+
+.portfolio {
+  background: #f6f6f6;
+  text-align: center; }
+  .portfolio .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .portfolio .container .portfolio_img {
+      margin: 30px;
+      position: relative; }
+      .portfolio .container .portfolio_img i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 0.8;
+        padding: 20px;
+        font-size: 28px;
+        background: #fff;
+        transform: translate(-50%, -50%);
+        visibility: hidden; }
+      .portfolio .container .portfolio_img:hover i {
+        visibility: visible; }
